@@ -1,48 +1,66 @@
-#main {
+body {
   width: 100%;
   height: 100%;
-  background: linear-gradient(rgba(143,214,255,1), rgba(150,155,255,1));
-  opacity: 1;
-  position: absolute;
-  top: 0px;
-  left: 0px;
+  background: linear-gradient(#8fd6ff, #969bff);
   overflow: hidden;
 }
+
+.container1 {
+  margin-top: 1vw;
+  display: grid;
+  grid-template-columns: 0fr 2fr 0fr;
+}
+.container2 {
+  margin-top: 0vw;
+  display: grid;
+  grid-template-columns: 29.5vw 20vw 20vw 29.5vw;
+}
+
 #Name {
-  width: 26.5625%;
-  position: absolute;
-  top: 6.3%;
-  left: 36.66%;
   font-family: NotoSerifDisplay-SemiBold;
-  font-size: 64px;
-  opacity: 1;
+  font-size: 8vh;
   text-align: center;
 }
-#Info {
-  width: 28.75%;
-  height: 9.7%;
-  opacity: 1;
-  position: absolute;
-  top: 15%;
-  left: 35.64%;
-  overflow: hidden;
-  font-family: NovaSquare-Book;
-  font-size: 20px;
-}
 #Contacts {
-  width: 51%;
-  position: absolute;
-  top: 0px;
-  left: 0px;
+  font-family: NovaSquare-Book;
+  font-size: 2vh;
   text-align: left;
 }
 #Address {
-  width: 49%;
-  position: absolute;
-  top: 0px;
-  left: 51%;
+  font-family: NovaSquare-Book;
+  font-size: 2vh;
   text-align: right;
 }
+
+@media screen and (max-width: 125vh) {
+  .container1 {
+    margin-top: 1vw;
+    display: grid;
+    grid-template-columns: 1fr 20fr 1fr;
+  }
+  .container2 {
+    margin-top: 0vw;
+    display: grid;
+    grid-template-columns: 1fr 10fr 10fr 1fr;
+  }
+  #Name {
+    font-family: NotoSerifDisplay-SemiBold;
+    font-size: 5vh;
+    text-align: center;
+  }
+  #Contacts {
+    font-family: NovaSquare-Book;
+    font-size: 1.75vh;
+    text-align: left;
+  }
+  #Address {
+    font-family: NovaSquare-Book;
+    font-size: 1.75vh;
+    text-align: right;
+  }
+}
+
+
 @font-face {
   font-family: "NovaSquare-Book";
   src: url("../fonts/NovaSquare-Book.ttf");
