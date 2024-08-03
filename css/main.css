@@ -42,7 +42,7 @@ body {
     margin-top: 0vw;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 0vh 8vh;
+    grid-template-rows: 0vh 10vh;
 }
   #Name {
     font-family: NotoSerifDisplay-SemiBold;
