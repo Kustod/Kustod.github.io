@@ -41,8 +41,9 @@ body {
   .container2 {
     margin-top: 0vw;
     display: grid;
-    grid-template-columns: 1fr 10fr 10fr 1fr;
-  }
+    grid-template-columns: 1fr;
+    grid-template-rows: 0vh 8vh;
+}
   #Name {
     font-family: NotoSerifDisplay-SemiBold;
     font-size: 5vh;
@@ -50,13 +51,13 @@ body {
   }
   #Contacts {
     font-family: NovaSquare-Book;
-    font-size: 1.75vh;
-    text-align: left;
+    font-size: 2vh;
+    text-align: center;
   }
   #Address {
     font-family: NovaSquare-Book;
-    font-size: 1.75vh;
-    text-align: right;
+    font-size: 2vh;
+    text-align: center;
   }
 }
 
