@@ -43,7 +43,7 @@ body {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 0vh 10vh;
-}
+  }
   #Name {
     font-family: NotoSerifDisplay-SemiBold;
     font-size: 5vh;
@@ -60,8 +60,6 @@ body {
     text-align: center;
   }
 }
-
-
 @font-face {
   font-family: "NovaSquare-Book";
   src: url("../fonts/NovaSquare-Book.ttf");
